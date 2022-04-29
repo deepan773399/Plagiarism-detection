@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>Plagiarism Detector</title>
+<style>
+  body
+  {
+    background-image: url("https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png");
+  }
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: blue;
+}
+textarea {
+  color: white;
+  width: 800px;
+  height: 150px;
+  font-size: 12px;
+  text-align: center;
+  background-color: transparent;
+  border-width: 4px ;
+}
+h2
+{
+  text-align: center;
+  text-decoration: underline;
+  color:yellow;
+}
+label,p
+{
+  color: white;
+  text-align: center;
+}
+</style>
+<body>
+
+<h2>Plagiarism Detector</h2>
+
+<form action="/report" method="POST">
+  <p>Paste your text here:</p><br>
+  <p><textarea for="fname" name='text' rows="2"></textarea></p>
+  <br>
+  <p><button type="Submit" value="Send">Generate Report</button></p>
+</form> 
+
+<p>You will be redirected once your report is generated.</p>
+
+<p>Time to generate report depends on length of text.</p>
+
+</body>
+</html>
